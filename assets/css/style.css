@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+.hero {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 60px 30px;
+    gap: 25px;
+}
+
+h2 {
+    font-size: 40px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+
+.caracter {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    color: white;
+    padding: 60px 30px;
+    gap: 25px;
+}
+
+.box {
+    justify-content: center;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    gap: 25px;
+    background-color: black;
+    padding: 35px 0px;
+}
+
+.card {
+    width: 20%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    font-size: small;
+    height: 70px;
+    text-align: center;
+    padding: 25px 0px;
+}
